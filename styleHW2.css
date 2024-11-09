@@ -1,0 +1,188 @@
+* {
+  margin: 0;
+  font-family: "Times New Roman", Times, serif;
+}
+.section1 {
+  background: url("https://images.unsplash.com/photo-1707669812580-4a6b2ce75f03?q=80&w=4470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  width: 100vw;
+  height: calc(100vh - 70px);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.head1 {
+  border-style: solid;
+  border-color: white;
+  border-width: 1;
+  background-color: white;
+  display: flex;
+  position: sticky;
+  top: 0;
+  justify-content: space-between;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding: 10px;
+  align-items: center;
+}
+#menu-head {
+  display: flex;
+}
+#s1 {
+  display: flex;
+  position: sticky;
+}
+#menu-head p {
+  padding-left: 35px;
+  font-size: 20px;
+}
+.head1 button {
+  font-size: 15px;
+  color: white;
+  border-width: 0;
+  background-color: rgb(230, 121, 19);
+  border-radius: 5px;
+  padding: 15px;
+}
+h2 {
+  color: white;
+  font-size: 70px;
+  text-align: center;
+}
+.section2 {
+  background: url("https://media.istockphoto.com/id/155150766/photo/passenger-jet-airplane-flying-above-clouds.jpg?s=2048x2048&w=is&k=20&c=e1gwfONDf6azO-B6gQeEHIRT-n3UxdtyFW7cTPsPxR8=");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+#h3 {
+  padding-top: 140px;
+  font-size: 50px;
+  margin-left: 50px;
+}
+.section2 p {
+  font-size: 25px;
+  font-weight: bold;
+  padding-top: 50px;
+  width: 50vw;
+  margin-left: 50px;
+}
+ul {
+  font-size: 25px;
+  padding-top: 40px;
+  margin-left: 50px;
+}
+.section3 {
+  background: url("https://media.istockphoto.com/id/1463923982/photo/asian-chinese-female-tourist-camel-caravan-going-through-the-sahara-desert-in-morocco-at.jpg?s=2048x2048&w=is&k=20&c=AY_1H32ubJZDDSTOjkj1rynzLpT23FFoQEQZaanb2Dc=");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+}
+.section3 h4 {
+  padding: 20%;
+  font-size: 80px;
+  text-align: center;
+}
+.section4 {
+  background: url("https://images.unsplash.com/photo-1638050235320-a47bea7039d2?q=80&w=3601&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
+  align-items: center;
+  justify-content: flex-end;
+  display: flex;
+}
+.section4 p {
+  font-size: 40px;
+  flex-wrap: wrap;
+  width: 450px;
+}
+#s4 p span {
+  font-size: 20px;
+}
+.section5 {
+  width: 100vw;
+  height: 100vh;
+}
+.head-s5 {
+  text-align: center;
+  background-color: rgb(236, 226, 226);
+  padding-top: 150px;
+  padding-bottom: 150px;
+}
+.head-s5 h6 {
+  font-size: 50px;
+  padding-bottom: 50px;
+}
+.head-s5 p {
+  font-size: 20px;
+}
+#input {
+  margin-top: 50px;
+  width: 230px;
+  height: 40px;
+}
+#s5 button {
+  margin-top: 20px;
+  background-color: orange;
+  color: white;
+  border-width: 0;
+  width: 240px;
+  height: 40px;
+  border-radius: 3px;
+}
+.footer {
+  justify-content: space-evenly;
+  flex-direction: row;
+  display: flex;
+  margin-top: 80px;
+}
+#f1 p {
+  padding-top: 30px;
+  font-size: 20px;
+  padding-bottom: 0;
+}
+.footer h6 {
+  font-size: 20px;
+}
+.section5 p {
+  font-size: 20px;
+}
+.icon-container {
+  display: flex;
+  justify-content: center;
+  margin-left: 250px;
+  margin-right: 250px;
+}
+#icon {
+  display: flex;
+  border-top: 2px solid;
+  margin-top: 70px;
+  justify-content: space-between;
+  padding-top: 30px;
+  width: 80%;
+  padding-left: 20px;
+  padding-right: 20px;
+  border-color: rgb(162, 151, 151);
+}
+#icon img {
+  width: 25px;
+  height: 25px;
+  border-radius: 2px;
+}
+#icon p {
+  background: linear-gradient(to right, #f32170, #ff6b08, #cf23cf, #eedd44);
+  /* -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text; */
+  color: transparent;
+  background-clip: text;
+}
